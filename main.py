@@ -2,8 +2,8 @@ import os
 import random
 from faker import Faker
 import file_operations
-from file_operations import VERSION
-from player_stats import SKILLS, MAPPING_LATTERS, stylize_skills, generate_context
+from player_stats import SKILLS, MAPPING_LATTERS, stylize_skills, \
+    generate_context
 
 
 def main():
